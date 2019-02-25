@@ -1,0 +1,170 @@
+body{margin:0;
+    font-family: "Muli",sans-serif;
+}
+
+nav{
+    background-color: orange;
+    width: 100%;
+    position: fixed;
+    padding: 0 3px; 
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    margin: 0 1px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background: white;
+    color: orange;
+}
+
+header{
+    width:100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("photo2.jpg");
+}
+header h1 {
+    color: white;
+    text-transform: uppercase;
+      
+    
+    /* buat ke tengah */
+    font-family: "Muli",sans-serif;
+}
+  
+.foto{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 20%;
+}
+.content1{
+    background: green;
+    width: 100%;
+    height: 100%;
+  
+}
+.about{
+    text-align: center;
+}
+
+.experience p{
+    text-align: center;
+    width: 100%;
+    
+}
+.table1 {
+    list-style: height 1.6em;
+    letter-spacing: 0.1em;
+    font-size: small;
+    text-align: justify;
+    /* padding: 10px; */
+    display: row;
+    flex-basis: auto;
+    font-size: 8px;
+}
+.table2{
+    list-style: height 1.6em;
+    letter-spacing: 0.1em;
+    font-size: small;
+    text-align: justify;
+    /* padding: 10px; */
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+.table3{
+    width:35%;
+    text-align: center;
+    font-size: 13px;
+ 
+}
+  /* span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  } */
+
+/* .content2{
+    
+    width:100%;
+ 
+    background: tomato;
+    align-items: center;
+    justify-content: center;
+} */
+/* .photo{
+    width:100px;
+    height:100px;
+    left:50%;
+    margin:15px 25px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.photo img{
+    width: 150%;
+    height:150%;
+    padding: 10px;
+    align-self: center;
+}
+
+.about{
+    width:100%;
+    height:100;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    width:100%;
+    height:100%;
+    padding:10px;
+    align-self: center;
+}
+.experience h1{
+    margin:0;
+}
+
+.foot{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.foot li{
+    float:left;
+}
+.foot li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.foot li a:hover{
+    background-color: black;
+}
+
+.footer{
+    width:100%;
+   
+} */
